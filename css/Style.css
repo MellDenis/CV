@@ -1,0 +1,111 @@
+body{
+  background-image:url("https://i.pinimg.com/originals/95/3e/24/953e24a93d42d0f1772cf70403d2044a.jpg");
+}
+
+#secciones{
+  color: #f85959;
+}
+.border{
+  border-style:solid;
+  border-width: 1px;
+  border-color: #fdf0f6;
+  border-radius: 25px;
+  padding: 20px;
+  margin:30px;
+  background-color: #363434;
+  box-shadow:8px 8px 20px grey;
+}
+
+.banner{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background-image: url(../icons/aa.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+}
+
+.menu{
+  display: flex;
+}
+
+.menu li{
+  list-style: none;
+  margin:70px;
+  padding-right: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  border-right: 6px solid #283148;
+}
+
+.menu a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffd2;
+}
+
+li a:hover{
+  background-color: #5c3b6f;
+}
+
+.presentacion{
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px;
+}
+
+#fotoCv{
+  width: 190px;
+  height: 190px;
+  float: left;
+  margin-right:5px;
+  border-radius: 25px;
+}
+
+.items{
+  list-style: none;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cajaHobbie{
+   display: flex;
+   justify-content: space-around;
+}
+
+.cajaHobbie img{
+   float: left;
+   margin: 20px;
+   width: 50px;
+   height: 50px;
+}
+
+.iconos{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.itemsDesc{
+  padding: 50px;
+  width: 500px;
+  display: flex;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1{
+  border-bottom: solid;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h4{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+  font-family: 'Cantarell', sans-serif;
+}
